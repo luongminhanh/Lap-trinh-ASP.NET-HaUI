@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Nhập thông tin nhân viên</h2>
+<table border="1">
+    <tr>
+        <td>Mã nhân viên</td>
+        <td>
+            <input type="text" />
+        </td>
+    </tr>
+    <tr>
+        <td>Họ tên</td>
+        <td>
+            <input type="text" />
+        </td>
+    </tr>
+    <tr>
+        <td>Địa chỉ</td>
+        <td>
+            <input type="text" />
+        </td>
+    </tr>
+    <tr>
+        <td>Giới tính</td>
+        <td>
+            <input type="radio" name="nam"/> Nam
+            <input type="radio" name="nu"/> Nữ
+        </td>
+    </tr>
+    <tr>
+        <td>Chức vụ</td>
+        <td>
+            <select>
+                <option>Giám đốc</option>
+                <option>Trưởng phòng</option>
+                <option>Nhân viên</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Ngoại ngữ</td>
+        <td>
+            <input type="checkbox" name="anh" />Anh
+            <input type="checkbox" name="phap" />Pháp
+            <input type="checkbox" name="nga" />Nga
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+        <button type="submit">Lưu</button>
+        <button type="submit">Xóa</button>
+        </td>      
+    </tr>
+</table>
+

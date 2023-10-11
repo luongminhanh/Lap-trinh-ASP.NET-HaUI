@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Tính tiền điện</h2>
+<form action="/TienDien/Tinh" method="post">
+    <table border="1">
+        <tr>
+            <td>Họ tên chủ hộ</td>
+            <td>
+                <input type="text" name="name" />
+            </td>
+            <td>
+                <input type="checkbox" />Hộ ưu tiên
+            </td>
+        </tr>
+        <tr>
+            <td>Loại điện tiêu thụ</td>
+            <td colspan="2">
+                <select>
+                    <option>Sinh hoạt</option>
+                    <option>Dân dụng</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Vào chỉ số cũ</td>
+            <td colspan="2">
+                <input type="text" name="chisocu" />KW
+            </td>
+        </tr>
+        <tr>
+            <td>Vào chỉ số mới</td>
+            <td colspan="2">
+                <input type="text" name="chisomoi" />KW
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <input type="submit" value="Tính" />
+            </td>
+        </tr>
+    </table>
+</form>
+
+
