@@ -1,0 +1,63 @@
+﻿
+@{
+    Layout = null;
+}
+@{
+    var total = 0;
+    var num1 = "";
+    var num2 = "";
+    if (IsPost)
+    {
+        num1 = Request["text1"];
+        num2 = Request["text2"];
+        var pt = Request["pt"];
+        switch (pt)
+        {
+            case "Cộng":
+                total = num1.AsInt() + num2.AsInt();
+                break;
+            case "Trừ":
+                total = num1.AsInt() - num2.AsInt();
+                break;
+            case "Nhân":
+                total = num1.AsInt() * num2.AsInt();
+                break;
+            case "Chia":
+                total = num1.AsInt() / num2.AsInt();
+                break;
+        }
+
+    }
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Calculate</title>
+</head>
+<body>
+    <div>
+        <form action="" method="post">
+            <p>
+                <label for="text1">Nhập số thứ 1: </label>
+                <input type="text" name="text1" value="@num1" />
+            </p>
+            <p>
+                <label for="text2">Nhập số thứ 2: </label>
+                <input type="text" name="text2" value="@num2" />
+            </p>
+            <p>
+                <label for="text2">Kết quả: </label>
+                <input type="text" value="@total" />
+            </p>
+            <div>
+                <input value="Cộng" type="submit" name="pt" />
+                <input value="Trừ" type="submit" name="pt" />
+                <input value="Nhân" type="submit" name="pt" />
+                <input value="Chia" type="submit" name="pt" />
+            </div>
+        </form>
+    </div>
+</body>
+</html>

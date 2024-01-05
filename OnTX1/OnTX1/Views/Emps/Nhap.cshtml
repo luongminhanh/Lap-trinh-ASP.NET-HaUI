@@ -1,0 +1,79 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_View.cshtml";
+}
+<h1 style="text-align: center">Employees Information</h1>
+<form action="/Emps/Xuat" method="post">
+    <table>
+        <tr>
+            <td>Firstname: </td>
+            <td>
+                <input type="text" name="firstname" />
+            </td>
+        </tr>
+        <tr>
+            <td>Lastname: </td>
+            <td>
+                <input type="text" name="lastname" />
+            </td>
+        </tr>
+        <tr>
+            <td>Gender: </td>
+            <td>
+                <input type="radio" name="gender" value="nam" />Male
+                <input type="radio" name="gender" value="nu" />Female
+            </td>
+        </tr>
+        <tr>
+            <td>DOB:</td>
+            <td>
+                <select name="year">
+                    <option>2002</option>
+                    <option>2001</option>
+                    <option>2000</option>
+                </select>
+                <select name="month">
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Hobbies:</td>
+            <td>
+                <input type="checkbox" name="hobby" value="music" />Music
+                <input type="checkbox" name="hobby" value="touris" />Touris
+                <input type="checkbox" name="hobby" value="sport" />Sport
+            </td>
+        </tr>
+        <tr>
+            <td>Salary: </td>
+            <td>
+                <input type="text" name="salary" />
+            </td>
+        </tr>
+        <tr>
+            <td>Number work days: </td>
+            <td>
+                <input type="text" name="number" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Nhập" />
+                <input type="reset" value="Reset" />
+            </td>
+        </tr>
+    </table>
+</form>
+<p>Họ tên: @ViewBag.firstname @ViewBag.lastname</p>
+<p>Giới tính: @ViewBag.gender</p>
+<p>Năm sinh: @ViewBag.year</p>
+<p>Tháng sinh: @ViewBag.month</p>
+<p>Sở thích: @ViewBag.hobby</p>
+<p>Lương: @ViewBag.salary</p>
+<p>Số ngày làm việc: @ViewBag.number</p>
+<p>Lương thực: @ViewBag.luongthuc</p>
+

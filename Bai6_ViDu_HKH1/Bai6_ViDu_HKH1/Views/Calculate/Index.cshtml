@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@{
+    ViewBag.Title = "Index";
+}
+<style>
+    label {
+        width: 120px;
+        float: left;
+    }
+</style>
+<h2>Add two number</h2>
+@{
+    var total = 0;
+    var totalMessage = "";
+    if (IsPost)
+    {
+        var num1 = Request["text1"];
+        var num2 = Request["text2"];
+
+        total = num1.AsInt() + num2.AsInt();
+        totalMessage = "Total: " + num1 + " + " + num2 + " = " + total;
+    }
+}
+
+<form action="" method="post">
+    <p>
+        <label>First number</label>
+        <input type="text" name="text1" />
+    </p>
+    <p>
+        <label>Second number</label>
+        <input type="text" name="text2" />
+    </p>
+    <p>
+        <input type="submit" value="Add"/>
+    </p>
+    <p>@totalMessage</p>
+</form>
+
+

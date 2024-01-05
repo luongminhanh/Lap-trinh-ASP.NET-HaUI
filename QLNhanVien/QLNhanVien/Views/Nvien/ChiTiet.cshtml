@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "ChiTiet";
+}
+
+<h2>Xem chi tiết</h2>
+<fieldset>
+    <div>Mã nhân viên: @Model.Manv</div>
+    <div>Họ tên: @Model.Hoten</div>
+    <div>Phòng: @Model.Maphong</div>
+    <div>Lương: @Model.Luong</div>
+</fieldset>
+<br />
+@using (Html.BeginForm())
+{
+    <p>
+        @Html.ActionLink("Sửa", "Sua", new { id = Model.Manv.Trim() }) |
+        @Html.ActionLink("Xóa", "Xoa", new { id = Model.Manv.Trim() }) |
+        @Html.ActionLink("Về danh sách", "Index")
+    </p>
+}
+
+
+

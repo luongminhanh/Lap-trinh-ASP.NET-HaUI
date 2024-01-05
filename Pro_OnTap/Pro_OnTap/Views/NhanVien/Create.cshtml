@@ -1,0 +1,111 @@
+﻿@model Pro_OnTap.Models.NhanVien
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>NhanVien</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.Hoten, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Hoten, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Hoten, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Matkhau, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Matkhau, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Matkhau, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Tuoi, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Tuoi, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Tuoi, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Diachi, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Diachi, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Diachi, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Luong, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Luong, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Luong, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Maphong, "Maphong", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("Maphong", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Maphong, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="button" name="submitButton" id="btnSave" value="Save" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+<div id="msg" style="color: red"></div>
+@section Scripts {
+    @*@Scripts.Render("~/bundles/jqueryval")*@
+    <script type="text/javascript">
+        $(function () {
+            $("#btnSave").click(function () {
+                var nv = {};
+                nv.Hoten = $("#Hoten").val();
+                nv.Matkhau = $("#Matkhau").val();
+                nv.Tuoi = $("#Tuoi").val();
+                nv.Diachi = $("#Diachi").val();
+                nv.Luong = $("#Luong").val();
+                nv.Maphong = $("#Maphong").val();
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("/Create")',
+                    data: '{nv: ' + JSON.stringify(nv) + '}',
+                    dataType: "json",
+                    contentType: "application/json; charset=utf-8",
+                    success: function (response) {
+                        if (response.result == true) {
+                            $("#msg").html('Thêm thành công');
+                        }
+                        else {
+                            $("#msg").html('Thêm thất bại');
+                        }
+                    },
+                });
+                return false;
+            });
+        });
+    </script>
+
+}

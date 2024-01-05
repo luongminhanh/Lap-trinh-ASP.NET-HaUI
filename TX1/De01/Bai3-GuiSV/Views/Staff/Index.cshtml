@@ -1,0 +1,44 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<style>
+    img {
+        width: 100px;
+        height: 100px;
+    }
+</style>
+<body>
+    <form action="" method="post" enctype="multipart/form-data">
+        <h2>Staff information</h2>
+        Staff Id: <br />
+        <input type="text" name="id" value="@ViewBag.id"/>
+        <br />Staff Name: <br />
+        <input type="text" name="name" value="@ViewBag.name" />
+        <br />Date of Birth: <br />
+        <input type="date" name="birth" value="@ViewBag.birth" />
+        <br />Salary: <br />
+        <input type="text" name="salary" value="@ViewBag.salary" />
+        <br />Image: <br />
+        <input type="file" name="file" />
+        <br/>
+        Live Preview<br/>
+        <img src="@ViewBag.image" />
+        <div>
+            <input type="submit" value="Open" formaction="/staff/open"/>
+            <input type="submit" value="Save" formaction="/staff/save"/>
+        </div>
+        <div>
+            @ViewBag.error
+        </div>
+    </form>
+</body>
+</html>

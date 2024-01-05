@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <link href="~/wwwroot/CSS/Style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+            <div id="page">
+                <div id="header">
+                    <div id="logo">
+                        <img src="~/wwwroot/images/big_img.jpg" alt="" border="0" />&nbsp;&nbsp;
+                        <a href="">
+                            <img src="~/wwwroot/images/logo.jpg" alt="Nhà sách Minh Sơn" border="0" />
+                        </a>
+                    </div>
+                    <div id="menung">
+                        <ul>
+                            <li><a href="/BookStore/Index"><span>Trang chủ</span></a> </li>
+                            <li><a href="/BookStore/About"><span>Giới thiệu</span></a> </li>
+                            <li><a href="/BookStore/Contact"><span>Liên hệ</span></a> </li>
+                            <li><a href="/BookStore/New"><span>Tin tức</span></a> </li>
+                            <li><a href="/Giohang/Giohang"><span>Giỏ hàng</span></a> </li>
+                        </ul>
+                    </div>
+                </div> 
+                <div id="main">
+                    <div id="left">
+                        <div id="menud">
+                            <p>Danh mục sách</p>
+                            <ul>
+                                <li><a href=""><span>Ngoại ngữ</span></a> </li>
+                                <li><a href=""><span>Công nghệ thông tin</span></a> </li>
+                                <li><a href=""><span>Luật</span></a> </li>
+                                <li><a href=""><span>Văn học</span></a> </li>
+                                <li><a href=""><span>Khoa học kỹ thuật</span></a> </li>
+                            </ul>
+                        </div>
+                    </div> 
+                <div id="content">
+                            @RenderBody()
+                 </div>
+             </div>
+                <div id="footer">
+                    <p>
+                        &copy; Copyright : 2022<br />
+                        ASP.NET MVC project
+                    </p>
+                    <p>
+                        Học lập trình<br />
+                        Khoa CNTT - ĐHCN Hà Nội<br />
+                        Minh Khai, Từ Liêm, Hà Nội
+                    </p>
+                </div> 
+         </div>
+</body>
+</html>

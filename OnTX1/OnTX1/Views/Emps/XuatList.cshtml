@@ -1,0 +1,33 @@
+﻿@model IEnumerable<OnTX1.Models.Emps>
+@{
+    Layout = "~/Views/Shared/_View.cshtml";
+    List<OnTX1.Models.Emps> li1 = ViewBag.li1;
+    List<OnTX1.Models.Emps> li2 = ViewBag.li2;
+}
+
+<table>
+    <tr>
+        <td>
+            Họ tên
+        </td>
+        <td>Giới tính</td>
+        <td>Sở thích</td>
+        <td>Lương</td>
+        <td>Ngày sinh</td>
+        <td>Số ngày làm việc</td>
+    </tr>
+    @foreach (var item in li1)
+    {
+        <tr>
+            <td>
+                @item.firstname @item.lastname
+            </td>
+            <td>@item.gender</td>
+            <td>@item.hobby</td>
+            <td>@item.salary</td>
+            <td>@item.month / @ViewBag.year</td>
+            <td>@item.number</td>
+        </tr>
+    }
+</table>
+

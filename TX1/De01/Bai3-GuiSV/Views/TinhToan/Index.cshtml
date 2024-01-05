@@ -1,0 +1,44 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <form action="/TinhToan/XuLy" method="post"> 
+        <table>
+            <tr>
+                <td>Số A: </td>
+                <td>
+                    <input type="text" name="soA" />
+                </td>
+            </tr>
+            <tr>
+                <td>Số B: </td>
+                <td>
+                    <input type="text" name="soB" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="radio" name="ptinh" value="cong" />Cộng
+                    <input type="radio" name="ptinh" value="tru" />Trừ
+                    <input type="radio" name="ptinh" value="nhan" />Nhân
+                    <input type="radio" name="ptinh" value="chia" />Chia
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Tính" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

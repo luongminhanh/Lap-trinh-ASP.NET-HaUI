@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Quản lý công nhân</h2>
+<table>
+    <tr>
+        <th>Mã CN</th>
+        <th>Họ tên</th>
+        <th>Bậc lương</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Macn</td>
+            <td>@item.Hoten</td>
+            <td>@item.Bacluong</td>
+        </tr>
+    }
+</table>
+@Html.ActionLink("Thêm mới", "Them", "Cau6")

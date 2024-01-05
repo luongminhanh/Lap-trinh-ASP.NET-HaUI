@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Sua";
+}
+
+<h2>Sửa nhân viên</h2>
+<table>
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true)
+        <tr style="height: 40px">
+            <td>Họ tên: </td>
+            <td>@Html.TextBox("Hoten")<font color="red">@ViewData["Loi1"]</font> </td>
+        </tr>
+        <tr style="height: 40px">
+            <td>Tên phòng: </td>
+            <td>@Html.DropDownList("Phong") </td>
+        </tr>
+        <tr style="height: 40px">
+            <td>Lương: </td>
+            <td>@Html.TextBox("Luong")<font color="red">@ViewData["Loi2"]</font> </td>
+        </tr>
+        <tr style="color: red">
+            <td colspan="2" style="text-align: center">
+                <input type="submit" value="Lưu" />
+                @Html.ActionLink("Về danh sách", "Index")
+            </td>
+        </tr>
+    }
+</table>
+

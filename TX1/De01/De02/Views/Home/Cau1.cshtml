@@ -1,0 +1,88 @@
+﻿
+@{
+    Layout = null;
+}
+@{ 
+    var masp = "";
+    var tensp = "";
+    var loaisp = "";
+    var soluong = 0;
+    double dongia = 0.0;
+    double thanhtien = 0.0;
+    if (IsPost)
+    {
+        masp = Request["masp"];
+        tensp = Request["tensp"];
+        loaisp = Request["loaisp"];
+        dongia = double.Parse(Request["dongia"]);
+        soluong = int.Parse(Request["soluong"]);
+        if (soluong >= 200)
+        {
+            thanhtien = soluong * dongia * 0.9;
+        }
+        else
+        {
+            thanhtien = soluong * dongia;
+        }
+
+    }
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Cau1</title>
+</head>
+
+<body>
+    <form action="" method="post"> 
+        <table>
+            <tr>
+                <td>Mã sản phẩm: </td>
+                <td>
+                    <input type="text" name="masp" value="@masp"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Tên sản phẩm: </td>
+                <td>
+                    <input type="text" name="tensp" value="@tensp" />
+                </td>
+            </tr>
+            <tr>
+                <td>Loại sản phẩm: </td>
+                <td>
+                    <select name="loaisp">
+                        <option @(loaisp == "Nông sản" ? "selected" : "")>Nông sản</option>
+                        <option @(loaisp == "Hải sản" ? "selected" : "")>Hải sản</option>
+                        <option @(loaisp == "Đồ uống" ? "selected" : "")>Đồ uống</option>
+                    </select>
+                </td>
+            <tr>
+                <td>Số lượng: </td>
+                <td>
+                    <input type="text" name="soluong" value="@soluong"/>
+                </td>
+            <tr>
+                <td>Đơn giá: </td>
+                <td>
+                    <input type="text" name="dongia" value="@dongia"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Thành tiền: </td>
+                <td>
+                    <input type="text" name="thanhtien" value="@thanhtien"/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="TÍNH"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

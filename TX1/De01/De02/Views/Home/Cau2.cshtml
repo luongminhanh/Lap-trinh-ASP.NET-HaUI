@@ -1,0 +1,64 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Cau2</title>
+</head>
+<body>
+    <div> 
+        @using (Html.BeginForm("KetQua", "Home"))
+            {
+        <table>
+            <tr>
+                <td>@Html.Label("Mã sản phẩm: ")</td>
+                <td>
+                    @Html.TextBox("masp")
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.Label("Tên sản phẩm: ")</td>
+                <td>
+                    @Html.TextBox("tensp")
+                </td>
+            <tr>
+                <td>@Html.Label("Số lượng: ")</td>
+                <td>
+                    @Html.TextBox("soluong")
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.Label("Đơn giá: ")</td>
+                <td>
+                    @Html.TextBox("dongia")
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.Label("Loại sản phẩm: ")</td>
+                <td>
+                    @{ IEnumerable<string> sp = new List<string> { "nông sản", "hải sản", "đồ uống" };
+                     }
+                    @Html.DropDownList("loaisp", new SelectList(sp, sp.FirstOrDefault()), "--Select--")
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.Label("Thành tiền: ")</td>
+                <td>
+                    @Html.TextBox("thanhtien")
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="TÍNH"/>
+                </td>
+            </tr>
+        </table>
+            }
+    </div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+﻿@model ViDu2.Models.Student
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Regis</title>
+</head>
+<body>
+    <div>
+        <h4>Student</h4>
+        <hr />
+        <table border="1" style="border-collapse: collapse" cellpadding="5">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.name)
+                </th>
+                <td> @Html.DisplayFor(model => model.name)</td>
+            </tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.gender)
+                </th>
+                <td> @Html.DisplayFor(model => model.gender)</td>
+            </tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.email)
+                </th>
+                <td> @Html.DisplayFor(model => model.email)</td>
+            </tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.addr)
+                </th>
+                <td> @Html.DisplayFor(model => model.addr)</td>
+            </tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.subject)
+                </th>
+                <td> @Html.DisplayFor(model => model.subject)</td>
+            </tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.username)
+                </th>
+                <td> @Html.DisplayFor(model => model.username)</td>
+            </tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.password)
+                </th>
+                <td> @Html.DisplayFor(model => model.password)</td>
+            </tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.comment)
+                </th>
+                <td> @Html.DisplayFor(model => model.comment)</td>
+            </tr>
+        </table>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

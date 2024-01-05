@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Xoa";
+}
+
+<h2>Xoa</h2>
+@using (Html.BeginForm())
+{
+    <div>Mã nhân viên @Model.Manv </div>
+    <div>Mã nhân viên @Model.Hoten </div>
+    <div>Mã nhân viên @Model.Maphong </div>
+    <div>Mã nhân viên @Model.Luong </div>
+    <input type="submit" value="Xóa"/>
+}
+

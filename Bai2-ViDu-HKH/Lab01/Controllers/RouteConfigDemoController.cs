@@ -22,5 +22,15 @@ namespace Lab01.Controllers
             }
             return Content(str);
         }
+        [Route("haui/testpara2/{msg}/{number}")]
+        public ActionResult TestParameterV2(string msg, int number)
+        {
+            string str = "";
+            for (int i = 0; i < number; i++)
+            {
+                str = str + i + ". " + msg + "</br>";
+            }
+            return Content(str);
+        }
     }
 }

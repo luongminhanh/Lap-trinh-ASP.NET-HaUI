@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+<form action="/Calculate/ResultV2" method="post">
+    <table>
+        <tr>
+            <th>Nhap a: </th>
+            <td><input type="text" name="soA"/></td>
+        </tr>
+        <tr>
+            <th>Nhap b: </th>
+            <td><input type="text" name="soB"/></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="radio" value="+" name="ptinh" />Cộng
+                <input type="radio" value="-" name="ptinh" />Trừ
+                <input type="radio" value="*" name="ptinh" />Nhân
+                <input type="radio" value="/" name="ptinh" />Chia
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="Calculate"/>
+            </td>
+        </tr>
+    </table>
+</form>
+

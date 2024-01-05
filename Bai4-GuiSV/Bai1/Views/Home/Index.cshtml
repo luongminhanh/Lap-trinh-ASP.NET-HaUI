@@ -1,0 +1,31 @@
+﻿
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<form action="/Home/Result2" method="post">
+    <table>
+        <tr>
+            <th>Nhập a: </th>
+            <td><input type="text" name="soA" /></td>
+        </tr>
+        <tr>
+            <th>Nhập b: </th>
+            <td><input type="text" name="soB" /></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="radio" value="+" name="pt" />Cộng
+                <input type="radio" value="-" name="pt" />Trừ
+                <input type="radio" value="*" name="pt" />Nhân
+                <input type="radio" value="/" name="pt" />Chia
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="Calculate"/></td>
+        </tr>
+    </table>
+</form>
+

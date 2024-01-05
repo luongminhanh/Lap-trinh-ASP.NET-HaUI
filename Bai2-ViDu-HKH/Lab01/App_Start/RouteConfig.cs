@@ -12,6 +12,7 @@ namespace Lab01
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            routes.MapMvcAttributeRoutes();
 
             routes.MapRoute(
                 name: "Default",
@@ -21,10 +22,10 @@ namespace Lab01
             );
 
             routes.MapRoute(
-                name: "Hello",
+                name: "hello",
                 url: "{controller}/{action}/{ten}/{id}"
-                //defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
-                //defaults: new { controller = "Hello", action = "Index", id = UrlParameter.Optional }
+            //defaults: new { controller = "home", action = "index", id = urlparameter.optional }
+            //defaults: new { controller = "hello", action = "index", id = urlparameter.optional }
             );
 
             routes.MapRoute(

@@ -1,0 +1,88 @@
+﻿
+@{
+    Layout = null;
+}
+@{
+    var maNV = Request["maNV"];
+    var hoTen = Request["hoTen"];
+    var donVi = Request["donVi"];
+    var gioiTinh = Request["gioiTinh"];
+    var soNgayCong = Request["soNgayCong"];
+    var thuNhap = soNgayCong.AsInt() * 300000;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Nhân Viên</title>
+</head>
+<body>
+    <div>
+        <h2>Student Registration</h2>
+        @using (Html.BeginForm())
+        {
+            <table border="1" style="border-collapse: collapse" cellpadding="5">
+                <tr>
+                    <td>@Html.Label("Mã Nhân Viên")</td>
+                    <td>@Html.TextBox("maNV")</td>
+                </tr>
+                <tr>
+                    <td>@Html.Label("Họ tên")</td>
+
+                    <td>@Html.TextBox("hoTen")</td>
+
+                </tr>
+                <tr>
+                    <td>@Html.Label("Đơn vị")</td>
+                    <td>
+                        @{
+                            IEnumerable<string> strList = new List<string>
+                                        { "kỹ thuật", "kinh doanh", "tổ chức"};
+                            @Html.DropDownList("donVi", new SelectList(strList, strList.FirstOrDefault()), "--Select--")
+                        }
+                    </td>
+                </tr>
+                <tr>
+                    <td>@Html.Label("Giới tính")</td>
+                    <td>
+                        @Html.RadioButton("gioiTinh", "Nam") Nam
+                        @Html.RadioButton("gioiTinh", "Nữ") Nữ
+                    </td>
+                </tr>
+                <tr>
+                    <td>@Html.Label("Số ngày công")</td>
+                    <td>@Html.TextBox("soNgayCong")</td>
+                </tr>
+                <tr>
+                    <td>@Html.Label("Thu nhập")</td>
+                    <td>@Html.TextBox("thuNhap")</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center" colspan="2"><input type="submit" value="Tính" /></td>
+                </tr>
+            </table>
+        }
+    </div>
+    <div>
+        <table border="1" style="border-collapse: collapse" cellpadding="5">
+            <tr>
+                <th>Mã NV</th>
+                <th>Họ tên</th>
+                <th>Đơn vị</th>
+                <th>Giới tính</th>
+                <th>Ngày công</th>
+                <th>Thu nhập</th>
+            </tr>
+            <tr>
+                <td>@maNV</td>
+                <td>@hoTen</td>
+                <td>@donVi</td>
+                <td>@gioiTinh</td>
+                <td>@soNgayCong</td>
+                <td>@thuNhap</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+﻿@model PagedList.IPagedList<Bai8_LinQ_EntityFrameWork.Models.Catalogy>
+@using PagedList.Mvc;
+<linh href="~/Content/PageList.scss" rel="stylesheet" typeof="text/css" />
+@{
+    ViewBag.Title = "Display";
+}
+
+<h2>Display</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Tên danh mục
+        </th>
+        <th>
+            Mô tả
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CatalogyName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.CatalogyID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.CatalogyID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.CatalogyID })
+            </td>
+        </tr>
+    }
+
+</table>
+<br />
+Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+@Html.PagedListPager(Model, page => Url.Action("Display", new { page }))

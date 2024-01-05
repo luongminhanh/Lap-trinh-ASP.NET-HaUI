@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutClient.cshtml";
+}
+
+<style type="text/css">
+    #products {
+        width: 760px;
+    }
+    #product {
+        width: 222px;
+        height: 320px;
+        float: left;
+        display: block;
+        padding: 5px;
+        margin: 5px;
+        text-align: left;
+        background-color: #fff;
+        border: 1px solid #999;
+    }
+</style>
+
+<h1 style="color: blue">CỬA HÀNG SÁCH ONLINE MINH ĐỨC</h1>
+<div id="products">
+    @foreach(var sach in Model)
+            {
+                <div id="product">
+                    <a href="@Url.Action("Details", "BookStore", new {id = sach.Masach})" />
+                    <h2>@sach.Tensach</h2><br/><hr />
+                    <img src="~/wwwroot/images/@sach.Anhbia" width="215" height="280" alt="@sach.Tensach"/>
+                </div>
+            }
+    <div style="clear: left"></div>
+</div>

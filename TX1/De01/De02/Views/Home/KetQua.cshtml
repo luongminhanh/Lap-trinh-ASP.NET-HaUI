@@ -1,0 +1,37 @@
+﻿@model De02.Models.SanPham
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>KetQua</title>
+</head>
+<body>
+    <div>
+        <h4>SanPham</h4>
+        <hr />
+        <table>
+            <tr>
+                <td>Mã sản phẩm: </td>
+                <td>@Html.DisplayFor(model => model.masp)</td>
+            </tr>
+            <tr>
+                <td>Tên sản phẩm: </td>
+                <td>@Html.DisplayFor(model => model.tensp)</td>
+            <tr>
+                <td>Thành tiền: </td>
+                <td>@Html.DisplayFor(model => model.thanhtien)</td>
+            </tr>
+        </table>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

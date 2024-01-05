@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "Them";
+}
+
+<h2>Them mới nhân viên</h2>
+@using (Html.BeginForm())
+            {
+                <table>
+                    <tr>
+                        <td>Mã nhân viên</td>
+                        <td>
+                            @Html.TextBox("Manv")
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Mã nhân viên</td>
+                        <td>
+                            @Html.TextBox("Hoten")
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Mã nhân viên</td>
+                        <td>
+                            @Html.DropDownList("Phong")
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Mã nhân viên</td>
+                        <td>
+                            @Html.TextBox("Luong")
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" value="Thêm"/>
+                        </td>
+                    </tr>
+                </table>
+            }
+

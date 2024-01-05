@@ -1,0 +1,276 @@
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\ApplicationInsights.config
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\roslyn\csc.exe
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\roslyn\csc.exe.config
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\roslyn\csc.rsp
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\roslyn\csi.exe
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\roslyn\csi.rsp
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\roslyn\System.AppContext.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\roslyn\System.Collections.Immutable.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\roslyn\System.IO.FileSystem.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\roslyn\System.Reflection.Metadata.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\roslyn\vbc.exe
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\roslyn\vbc.exe.config
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\roslyn\vbc.rsp
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\roslyn\VBCSCompiler.exe
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\roslyn\VBCSCompiler.exe.config
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\DocGhi_Upload.dll.config
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\DocGhi_Upload.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\DocGhi_Upload.pdb
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\Antlr3.Runtime.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\Microsoft.AI.Agent.Intercept.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\Microsoft.AI.DependencyCollector.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\Microsoft.AI.Web.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\Microsoft.AI.WindowsServer.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\Microsoft.ApplicationInsights.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\Microsoft.Web.Infrastructure.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\Newtonsoft.Json.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\System.Web.Helpers.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\System.Web.Mvc.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\System.Web.Optimization.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\System.Web.Razor.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\System.Web.WebPages.Deployment.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\System.Web.WebPages.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\System.Web.WebPages.Razor.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\WebGrease.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\System.Web.Helpers.xml
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\System.Web.Mvc.xml
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\System.Web.Optimization.xml
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\System.Web.Razor.xml
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\System.Web.WebPages.xml
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\System.Web.WebPages.Deployment.xml
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\System.Web.WebPages.Razor.xml
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\Antlr3.Runtime.pdb
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\Newtonsoft.Json.xml
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\Microsoft.ApplicationInsights.xml
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\Microsoft.AI.DependencyCollector.xml
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\Microsoft.AI.WindowsServer.xml
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\bin\Microsoft.AI.Web.xml
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\obj\Debug\DocGhi_Upload.dll
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\obj\Debug\DocGhi_Upload.pdb
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\obj\Debug\DocGhi_Upload.csproj.AssemblyReference.cache
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\obj\Debug\DocGhi_Upload.csproj.CoreCompileInputs.cache
+E:\TaiLieu\ASP-NET-MVC\Son-TaiLieuChuan\BaiThucHanh\Lab02\DocGhi_Upload\obj\Debug\DocGhi_Upload.csproj.CopyComplete
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\ApplicationInsights.config
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\roslyn\csc.exe
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\roslyn\csc.exe.config
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\roslyn\csc.rsp
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\roslyn\csi.exe
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\roslyn\csi.rsp
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\roslyn\System.AppContext.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\roslyn\System.Collections.Immutable.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\roslyn\System.IO.FileSystem.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\roslyn\System.Reflection.Metadata.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\roslyn\vbc.exe
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\roslyn\vbc.exe.config
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\roslyn\vbc.rsp
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\roslyn\VBCSCompiler.exe
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\roslyn\VBCSCompiler.exe.config
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\DocGhi_Upload.dll.config
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\DocGhi_Upload.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\DocGhi_Upload.pdb
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\Antlr3.Runtime.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\Microsoft.AI.Agent.Intercept.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\Microsoft.AI.DependencyCollector.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\Microsoft.AI.Web.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\Microsoft.AI.WindowsServer.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\Microsoft.ApplicationInsights.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\Microsoft.Web.Infrastructure.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\Newtonsoft.Json.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\System.Web.Helpers.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\System.Web.Mvc.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\System.Web.Optimization.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\System.Web.Razor.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\System.Web.WebPages.Deployment.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\System.Web.WebPages.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\System.Web.WebPages.Razor.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\WebGrease.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\System.Web.Helpers.xml
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\System.Web.Mvc.xml
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\System.Web.Optimization.xml
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\System.Web.Razor.xml
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\System.Web.WebPages.xml
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\System.Web.WebPages.Deployment.xml
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\System.Web.WebPages.Razor.xml
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\Antlr3.Runtime.pdb
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\Newtonsoft.Json.xml
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\Microsoft.ApplicationInsights.xml
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\Microsoft.AI.DependencyCollector.xml
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\Microsoft.AI.WindowsServer.xml
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\bin\Microsoft.AI.Web.xml
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\obj\Debug\DocGhi_Upload.csproj.AssemblyReference.cache
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\obj\Debug\DocGhi_Upload.csproj.CoreCompileInputs.cache
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\obj\Debug\DocGhi_Upload.csproj.CopyComplete
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\obj\Debug\DocGhi_Upload.dll
+E:\TaiLieu\3-Lập trình ASP.NET-Học kết hợp\!Tong-Hop-Cac-Bai\1-Chuẩn để dạy\BaiThucHanh-2-3-4\Lab02\DocGhi_Upload\obj\Debug\DocGhi_Upload.pdb
+D:\Data\DocGhi_Upload\bin\ApplicationInsights.config
+D:\Data\DocGhi_Upload\bin\roslyn\csc.exe
+D:\Data\DocGhi_Upload\bin\roslyn\csc.exe.config
+D:\Data\DocGhi_Upload\bin\roslyn\csc.rsp
+D:\Data\DocGhi_Upload\bin\roslyn\csi.exe
+D:\Data\DocGhi_Upload\bin\roslyn\csi.rsp
+D:\Data\DocGhi_Upload\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Data\DocGhi_Upload\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Data\DocGhi_Upload\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Data\DocGhi_Upload\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Data\DocGhi_Upload\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Data\DocGhi_Upload\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Data\DocGhi_Upload\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Data\DocGhi_Upload\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Data\DocGhi_Upload\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Data\DocGhi_Upload\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Data\DocGhi_Upload\bin\roslyn\System.AppContext.dll
+D:\Data\DocGhi_Upload\bin\roslyn\System.Collections.Immutable.dll
+D:\Data\DocGhi_Upload\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Data\DocGhi_Upload\bin\roslyn\System.IO.FileSystem.dll
+D:\Data\DocGhi_Upload\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Data\DocGhi_Upload\bin\roslyn\System.Reflection.Metadata.dll
+D:\Data\DocGhi_Upload\bin\roslyn\vbc.exe
+D:\Data\DocGhi_Upload\bin\roslyn\vbc.exe.config
+D:\Data\DocGhi_Upload\bin\roslyn\vbc.rsp
+D:\Data\DocGhi_Upload\bin\roslyn\VBCSCompiler.exe
+D:\Data\DocGhi_Upload\bin\roslyn\VBCSCompiler.exe.config
+D:\Data\DocGhi_Upload\bin\DocGhi_Upload.dll.config
+D:\Data\DocGhi_Upload\bin\DocGhi_Upload.dll
+D:\Data\DocGhi_Upload\bin\DocGhi_Upload.pdb
+D:\Data\DocGhi_Upload\bin\Antlr3.Runtime.dll
+D:\Data\DocGhi_Upload\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Data\DocGhi_Upload\bin\Microsoft.AI.DependencyCollector.dll
+D:\Data\DocGhi_Upload\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Data\DocGhi_Upload\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Data\DocGhi_Upload\bin\Microsoft.AI.Web.dll
+D:\Data\DocGhi_Upload\bin\Microsoft.AI.WindowsServer.dll
+D:\Data\DocGhi_Upload\bin\Microsoft.ApplicationInsights.dll
+D:\Data\DocGhi_Upload\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Data\DocGhi_Upload\bin\Microsoft.Web.Infrastructure.dll
+D:\Data\DocGhi_Upload\bin\Newtonsoft.Json.dll
+D:\Data\DocGhi_Upload\bin\System.Web.Helpers.dll
+D:\Data\DocGhi_Upload\bin\System.Web.Mvc.dll
+D:\Data\DocGhi_Upload\bin\System.Web.Optimization.dll
+D:\Data\DocGhi_Upload\bin\System.Web.Razor.dll
+D:\Data\DocGhi_Upload\bin\System.Web.WebPages.Deployment.dll
+D:\Data\DocGhi_Upload\bin\System.Web.WebPages.dll
+D:\Data\DocGhi_Upload\bin\System.Web.WebPages.Razor.dll
+D:\Data\DocGhi_Upload\bin\WebGrease.dll
+D:\Data\DocGhi_Upload\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Data\DocGhi_Upload\bin\System.Web.Helpers.xml
+D:\Data\DocGhi_Upload\bin\System.Web.Mvc.xml
+D:\Data\DocGhi_Upload\bin\System.Web.Optimization.xml
+D:\Data\DocGhi_Upload\bin\System.Web.Razor.xml
+D:\Data\DocGhi_Upload\bin\System.Web.WebPages.xml
+D:\Data\DocGhi_Upload\bin\System.Web.WebPages.Deployment.xml
+D:\Data\DocGhi_Upload\bin\System.Web.WebPages.Razor.xml
+D:\Data\DocGhi_Upload\bin\Antlr3.Runtime.pdb
+D:\Data\DocGhi_Upload\bin\Newtonsoft.Json.xml
+D:\Data\DocGhi_Upload\bin\Microsoft.ApplicationInsights.xml
+D:\Data\DocGhi_Upload\bin\Microsoft.AI.DependencyCollector.xml
+D:\Data\DocGhi_Upload\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Data\DocGhi_Upload\bin\Microsoft.AI.WindowsServer.xml
+D:\Data\DocGhi_Upload\bin\Microsoft.AI.Web.xml
+D:\Data\DocGhi_Upload\obj\Debug\DocGhi_Upload.csproj.AssemblyReference.cache
+D:\Data\DocGhi_Upload\obj\Debug\DocGhi_Upload.csproj.CoreCompileInputs.cache
+D:\Data\DocGhi_Upload\obj\Debug\DocGhi_Upload.csproj.CopyComplete
+D:\Data\DocGhi_Upload\obj\Debug\DocGhi_Upload.dll
+D:\Data\DocGhi_Upload\obj\Debug\DocGhi_Upload.pdb
+D:\Data\Data\DocGhi_Upload\bin\ApplicationInsights.config
+D:\Data\Data\DocGhi_Upload\bin\roslyn\csc.exe
+D:\Data\Data\DocGhi_Upload\bin\roslyn\csc.exe.config
+D:\Data\Data\DocGhi_Upload\bin\roslyn\csc.rsp
+D:\Data\Data\DocGhi_Upload\bin\roslyn\csi.exe
+D:\Data\Data\DocGhi_Upload\bin\roslyn\csi.rsp
+D:\Data\Data\DocGhi_Upload\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Data\Data\DocGhi_Upload\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Data\Data\DocGhi_Upload\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Data\Data\DocGhi_Upload\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Data\Data\DocGhi_Upload\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Data\Data\DocGhi_Upload\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Data\Data\DocGhi_Upload\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Data\Data\DocGhi_Upload\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Data\Data\DocGhi_Upload\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Data\Data\DocGhi_Upload\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Data\Data\DocGhi_Upload\bin\roslyn\System.AppContext.dll
+D:\Data\Data\DocGhi_Upload\bin\roslyn\System.Collections.Immutable.dll
+D:\Data\Data\DocGhi_Upload\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Data\Data\DocGhi_Upload\bin\roslyn\System.IO.FileSystem.dll
+D:\Data\Data\DocGhi_Upload\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Data\Data\DocGhi_Upload\bin\roslyn\System.Reflection.Metadata.dll
+D:\Data\Data\DocGhi_Upload\bin\roslyn\vbc.exe
+D:\Data\Data\DocGhi_Upload\bin\roslyn\vbc.exe.config
+D:\Data\Data\DocGhi_Upload\bin\roslyn\vbc.rsp
+D:\Data\Data\DocGhi_Upload\bin\roslyn\VBCSCompiler.exe
+D:\Data\Data\DocGhi_Upload\bin\roslyn\VBCSCompiler.exe.config
+D:\Data\Data\DocGhi_Upload\bin\DocGhi_Upload.dll.config
+D:\Data\Data\DocGhi_Upload\bin\DocGhi_Upload.dll
+D:\Data\Data\DocGhi_Upload\bin\DocGhi_Upload.pdb
+D:\Data\Data\DocGhi_Upload\bin\Antlr3.Runtime.dll
+D:\Data\Data\DocGhi_Upload\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Data\Data\DocGhi_Upload\bin\Microsoft.AI.DependencyCollector.dll
+D:\Data\Data\DocGhi_Upload\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Data\Data\DocGhi_Upload\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Data\Data\DocGhi_Upload\bin\Microsoft.AI.Web.dll
+D:\Data\Data\DocGhi_Upload\bin\Microsoft.AI.WindowsServer.dll
+D:\Data\Data\DocGhi_Upload\bin\Microsoft.ApplicationInsights.dll
+D:\Data\Data\DocGhi_Upload\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Data\Data\DocGhi_Upload\bin\Microsoft.Web.Infrastructure.dll
+D:\Data\Data\DocGhi_Upload\bin\Newtonsoft.Json.dll
+D:\Data\Data\DocGhi_Upload\bin\System.Web.Helpers.dll
+D:\Data\Data\DocGhi_Upload\bin\System.Web.Mvc.dll
+D:\Data\Data\DocGhi_Upload\bin\System.Web.Optimization.dll
+D:\Data\Data\DocGhi_Upload\bin\System.Web.Razor.dll
+D:\Data\Data\DocGhi_Upload\bin\System.Web.WebPages.Deployment.dll
+D:\Data\Data\DocGhi_Upload\bin\System.Web.WebPages.dll
+D:\Data\Data\DocGhi_Upload\bin\System.Web.WebPages.Razor.dll
+D:\Data\Data\DocGhi_Upload\bin\WebGrease.dll
+D:\Data\Data\DocGhi_Upload\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Data\Data\DocGhi_Upload\bin\System.Web.Helpers.xml
+D:\Data\Data\DocGhi_Upload\bin\System.Web.Mvc.xml
+D:\Data\Data\DocGhi_Upload\bin\System.Web.Optimization.xml
+D:\Data\Data\DocGhi_Upload\bin\System.Web.Razor.xml
+D:\Data\Data\DocGhi_Upload\bin\System.Web.WebPages.xml
+D:\Data\Data\DocGhi_Upload\bin\System.Web.WebPages.Deployment.xml
+D:\Data\Data\DocGhi_Upload\bin\System.Web.WebPages.Razor.xml
+D:\Data\Data\DocGhi_Upload\bin\Antlr3.Runtime.pdb
+D:\Data\Data\DocGhi_Upload\bin\Newtonsoft.Json.xml
+D:\Data\Data\DocGhi_Upload\bin\Microsoft.ApplicationInsights.xml
+D:\Data\Data\DocGhi_Upload\bin\Microsoft.AI.DependencyCollector.xml
+D:\Data\Data\DocGhi_Upload\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Data\Data\DocGhi_Upload\bin\Microsoft.AI.WindowsServer.xml
+D:\Data\Data\DocGhi_Upload\bin\Microsoft.AI.Web.xml
+D:\Data\Data\DocGhi_Upload\obj\Debug\DocGhi_Upload.csproj.AssemblyReference.cache
+D:\Data\Data\DocGhi_Upload\obj\Debug\DocGhi_Upload.csproj.CoreCompileInputs.cache
+D:\Data\Data\DocGhi_Upload\obj\Debug\DocGhi_Upload.csproj.CopyComplete
+D:\Data\Data\DocGhi_Upload\obj\Debug\DocGhi_Upload.dll
+D:\Data\Data\DocGhi_Upload\obj\Debug\DocGhi_Upload.pdb

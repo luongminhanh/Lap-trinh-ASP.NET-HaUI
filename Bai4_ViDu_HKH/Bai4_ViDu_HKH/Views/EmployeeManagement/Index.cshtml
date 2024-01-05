@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<style type="text/css">
+    label {
+        width: 120px;
+        float: left;
+    }
+</style>
+
+<h2>Input employee information</h2>
+<form action="CalSalaryV4" method="post">
+    <p>
+        <label>id</label>
+        <input type="text" name="id" />
+    </p>
+    <p>
+        <label>name</label>
+        <input type="text" name="name" />
+    </p>
+    <p>
+        <label>amount</label>
+        <input type="text" name="amount" />
+    </p>
+    <p>
+        <label>salary</label>
+        <input type="text" name="salary" />
+    </p>
+    <p>
+        <input type="submit" value="Gửi" name="sb"/>
+    </p>
+</form>
+

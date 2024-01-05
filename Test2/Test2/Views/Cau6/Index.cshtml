@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Quản lý công nhân</h2>
+<table>
+    <tr>
+        <th>Mã CN</th>
+        <th>Họ tên</th>
+        <th>Đơn vị</th>
+        <th><a href="@Url.Action("Index", new { sortOrder = ViewBag.BacluongSortParam })" class="sort-link">Bậc lương</a></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Macn</td>
+            <td>@item.Hoten</td>
+            <td>@item.Donvi</td>
+            <td>@item.Bacluong</td>
+        </tr>
+    }
+</table>
+@Html.ActionLink("Thêm mới", "Them", "Cau6")
+
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            $('.sort-link').click(function (e) {
+                e.preventDefault();
+
+                var currentSortOrder = $(this).attr('href').indexOf("asc") >= 0 ? "asc" : "desc";
+                var newSortOrder = currentSortOrder === "asc" ? "desc" : "asc";
+
+                var newUrl = $(this).attr('href').replace(currentSortOrder, newSortOrder);
+                window.location.href = newUrl;
+            });
+        });
+    </script>
+}

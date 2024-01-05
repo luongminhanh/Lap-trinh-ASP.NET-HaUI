@@ -1,0 +1,80 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Student Registation</title>
+    <style>
+        td {
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Student Registration Form</h2>
+    @using (Html.BeginForm("Regis2", "StudentRegistration"))
+            {
+<table border="1" style="border-collapse: collapse" cellpadding="5">
+    <tr>
+        <td>@Html.Label("Student Name")</td>
+        <td>@Html.TextBox("name")</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("Gender")</td>
+        <td>
+            @Html.RadioButton("gender", "Male") Male
+            @Html.RadioButton("gender", "Female") Female
+        </td>
+    </tr>
+    <tr>
+        <td>@Html.Label("Email")</td>
+        <td>@Html.TextBox("email")</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("Address")</td>
+        <td>
+            @{
+                IEnumerable<string> strad = new List<string> { "Hanoi", "Danang", "TPHochiminh" };
+                @Html.DropDownList("addr", new SelectList(strad, strad.FirstOrDefault()), "--Select--");
+            }
+        </td>
+    </tr>
+    <tr>
+        <td>@Html.Label("Subjects")</td>
+        <td>
+            @Html.CheckBox("History") History
+            @Html.CheckBox("Geography") Geography
+            @Html.CheckBox("Science") Science
+        </td>
+    </tr>
+    <tr>
+        <td>@Html.Label("Username")</td>
+        <td>@Html.TextBox("username")</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("Password")</td>
+        <td>@Html.TextBox("password")</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("Comment")</td>
+        <td>
+            @Html.TextArea("comment", "")
+        </td>
+    </tr>
+    <tr>
+        <td><input type="submit" value="Register"/></td>
+        <td><input type="reset" value="Cancel"/></td>
+    </tr>
+
+</table>
+            }
+    <div>
+
+    </div>
+</body>
+</html>
+

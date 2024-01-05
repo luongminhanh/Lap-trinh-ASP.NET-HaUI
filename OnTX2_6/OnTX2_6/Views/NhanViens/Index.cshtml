@@ -1,0 +1,63 @@
+﻿@model IEnumerable<OnTX2_6.Models.NhanVien>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@using (Html.BeginForm())
+            {
+                <table>
+                    <tr>
+                        <td>Nhập khoảng lương từ</td>
+                        <td>@Html.TextBox("first")</td>
+                        <td>Giá</td>
+                        <td>@Html.TextBox("last")</td>
+                        <td>
+                            <input type="submit" value="Tìm"/>
+                        </td>
+                    </tr>
+                </table>
+            }
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink("Họ tên", "Index", new {sort = ViewBag.sort})
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Maphong)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Luong)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Hoten)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Maphong)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Luong)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Manv }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Manv }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Manv })
+        </td>
+    </tr>
+}
+
+</table>
+
+@if (ViewBag.tong != null)
+            {
+                <div>@ViewBag.tong</div>
+            }

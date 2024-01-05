@@ -1,0 +1,66 @@
+﻿@model Pro_OnTap.Models.NhanVien
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NhanVien</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Phong.Tenphong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Phong.Tenphong)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Hoten)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hoten)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Matkhau)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Matkhau)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tuoi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tuoi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Diachi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Diachi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Luong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Luong)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Manv }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
